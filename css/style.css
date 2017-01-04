@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100vh;
+}
+
+.main {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+	width: 100%;
+}
+
+.fixed-nav>.main>nav {
+	position: fixed;
+	top: 0;
+}
+
+.links {
+	display: flex;
+	border-radius: 0 0 300px 300px;
+	background: #123;
+	padding: 2em;
+	justify-content: center;
+}
+
+.links > a {
+	flex: 1;
+	text-decoration: none;
+	color: white;
+}
+
+p {
+	width: 80%;
+	max-width: 80%;
+	font-size: 1.3em;
+	font-family: cursive;
+	line-height: 2.5em;
+	text-align: justify;
+}
